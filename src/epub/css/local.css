@@ -1,2 +1,73 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+/* End all epigraphs */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+}
+/* End full-page epigraphs */
