@@ -1,6 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -8,6 +17,12 @@ span[epub|type~="subtitle"]{
 
 blockquote[xml|lang]{
 	font-style: italic;
+}
+
+blockquote header{
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -80,3 +95,8 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+#chapter-10 > p:last-child{
+	text-align: center;
+	margin-top: 1em;
+}
