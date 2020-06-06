@@ -135,3 +135,24 @@ section[epub|type~="epigraph"] > *{
 #appendix .class-list ul{
 	list-style: none;
 }
+
+#illustration-2 figcaption{
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+@supports(display: flex){
+	#illustration-2{
+		display: flex;
+		align-items: center;
+	}
+
+	#illustration-2 figcaption{
+		margin: 0 2em 0 0;
+		flex-basis: 40%;
+	}
+
+	#illustration-2 img{
+		flex-basis: 60%;
+	}
+}
