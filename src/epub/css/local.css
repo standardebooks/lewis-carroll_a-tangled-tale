@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+var{
+	font-style: italic;
+}
+
 figure{
 	margin: 1em auto;
 	text-align: center;
@@ -114,4 +118,20 @@ section[epub|type~="epigraph"] > *{
 #chapter-10 > p:last-child{
 	text-align: center;
 	margin-top: 1em;
+}
+
+#appendix ol{
+	list-style-type: lower-roman;
+}
+
+#appendix .class-list ol{
+	list-style-type: upper-roman;
+}
+
+#appendix .class-list ol > li{
+	margin-bottom: 1em;
+}
+
+#appendix .class-list ul{
+	list-style: none;
 }
