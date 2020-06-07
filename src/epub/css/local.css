@@ -134,6 +134,7 @@ section[epub|type~="epigraph"] > *{
 
 #appendix .class-list ul{
 	list-style: none;
+	columns: 2;
 }
 
 #illustration-2 figcaption{
