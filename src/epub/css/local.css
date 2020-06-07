@@ -178,3 +178,12 @@ section[epub|type~="epigraph"] > *{
 		margin-right: 2em;
 	}
 }
+
+#appendix-5 > figure > table{
+	margin: 0 auto;
+}
+
+#appendix-5 figure td{
+	width: 2em;
+	text-align: center;
+}
