@@ -137,6 +137,11 @@ section[epub|type~="epigraph"] > *{
 	columns: 2;
 }
 
+#appendix .class-list ul ul{
+	columns: 1;
+	break-inside: avoid;
+}
+
 #illustration-2 figcaption{
 	margin-bottom: 1em;
 	text-align: left;
@@ -186,4 +191,8 @@ section[epub|type~="epigraph"] > *{
 #appendix-5 figure td{
 	width: 2em;
 	text-align: center;
+}
+
+#appendix-7-1 ol{
+	list-style-type: lower-alpha;
 }
