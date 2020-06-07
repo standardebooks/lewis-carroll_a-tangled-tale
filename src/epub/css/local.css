@@ -156,3 +156,24 @@ section[epub|type~="epigraph"] > *{
 		flex-basis: 60%;
 	}
 }
+
+#illustration-3 img{
+	max-width: 10em;
+}
+
+@supports(display: flex){
+	#appendix-2-2-explanation{
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+
+	#appendix-2-2-explanation figure{
+		flex-basis: 30%;
+	}
+
+	#appendix-2-2-explanation div{
+		flex-basis: 70%;
+		margin-right: 2em;
+	}
+}
