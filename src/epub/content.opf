@@ -46,10 +46,10 @@
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Tangled_Tale</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_a-tangled-tale</meta>
 		<dc:creator id="author">Lewis Carroll</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Carroll, Lewis</meta>
+		<meta property="se:name.person.full-name" refines="#author">Charles Lutwidge Dodgson</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Lewis_Carroll</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79056546</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056546</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
@@ -60,21 +60,21 @@
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Chris Curnow</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Curnow, Chris</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Carla Foust</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Fouse, Carla</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Lindy Walsh</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Walsh, Lindy</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
