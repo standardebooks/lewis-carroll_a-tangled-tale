@@ -126,6 +126,8 @@ section[epub|type~="epigraph"] > *{
 
 #appendix .class-list ol{
 	list-style-type: upper-roman;
+	margin: 0 0 0 1.5em;
+	padding: 0;
 }
 
 #appendix .class-list ol > li{
@@ -134,12 +136,12 @@ section[epub|type~="epigraph"] > *{
 
 #appendix .class-list ul{
 	list-style: none;
-	columns: 2;
+	margin: 0;
+	padding: 0;
 }
 
 #appendix .class-list ul ul{
-	columns: 1;
-	break-inside: avoid;
+	margin-bottom: 0.5em;
 }
 
 #illustration-2 figcaption{
