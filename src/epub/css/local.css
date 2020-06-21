@@ -35,10 +35,6 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-blockquote[xml|lang]{
-	font-style: italic;
-}
-
 blockquote header{
 	text-align: center;
 	font-style: italic;
