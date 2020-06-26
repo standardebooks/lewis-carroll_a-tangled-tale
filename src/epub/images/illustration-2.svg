@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 69">
-  <title>A diagram of the genealogy of the dinner party.</title>
-  <path fill="none" stroke="#000" stroke-width=".3" d="M18.5 25.8l-.2-9h77.3V26M57 7.7v9M68.2 17v9M9.4 36v17.2M113.8 61.7V44.5H89.2v9M104.3 35.6v9M71.7 55.2v-11H27.2V53M50.6 61.2v-17M57 35.2v9M7.6 29.5h4.7M7.6 31h4.7M15 57.2h4.8M15 58.8h4.8M55.7 30h4.8M55.7 31.7h4.8M78.7 57.5h4.8M78.7 59.1h4.8M102.5 30.4h4.8M102.5 32h4.8M54.9 2.8h4.7M54.9 4.4h4.7M54.8 65.7H109M54.8 67.3H109"/>
-  <text stroke-width=".3" font-size="7.8">
-    <tspan x="45.5" y="5.6">A</tspan>
-    <tspan x="62.5" y="5.6">a</tspan>
-    <tspan x="0" y="32.7">b</tspan>
-    <tspan x="16.3" y="32.7">B</tspan>
-    <tspan x="93.1" y="33.2">C</tspan>
-    <tspan x="110.1" y="33.2">c</tspan>
-    <tspan x="47.2" y="32.6">D</tspan>
-    <tspan x="64.3" y="32.6">d</tspan>
-    <tspan x="7.4" y="60.1">e</tspan>
-    <tspan x="24.4" y="60.1">E</tspan>
-    <tspan x="47.7" y="68.6">F</tspan>
-    <tspan x="112" y="68.6">f</tspan>
-    <tspan x="86.7" y="60.6">G</tspan>
-    <tspan x="69.2" y="60.6">g</tspan>
-  </text>
+	<title>A diagram of the genealogy of the dinner party.</title>
+	<path d="M18.5 25.8l-.2-9h77.3V26M57 7.7v9M68.2 17v9M9.4 36v17.2M113.8 61.7V44.5H89.2v9M104.3 35.6v9M71.7 55.2v-11H27.2V53M50.6 61.2v-17M57 35.2v9M7.6 29.5h4.7M7.6 31h4.7M15 57.2h4.8M15 58.8h4.8M55.7 30h4.8M55.7 31.7h4.8M78.7 57.5h4.8M78.7 59.1h4.8M102.5 30.4h4.8M102.5 32h4.8M54.9 2.8h4.7M54.9 4.4h4.7M54.8 65.7H109M54.8 67.3H109" fill="none" stroke="#000" stroke-width=".3"/>
+	<text font-size="7.8" stroke-width=".3">
+		<tspan x="45.5" y="5.6">A</tspan>
+		<tspan x="62.5" y="5.6">a</tspan>
+		<tspan x="0" y="32.7">b</tspan>
+		<tspan x="16.3" y="32.7">B</tspan>
+		<tspan x="93.1" y="33.2">C</tspan>
+		<tspan x="110.1" y="33.2">c</tspan>
+		<tspan x="47.2" y="32.6">D</tspan>
+		<tspan x="64.3" y="32.6">d</tspan>
+		<tspan x="7.4" y="60.1">e</tspan>
+		<tspan x="24.4" y="60.1">E</tspan>
+		<tspan x="47.7" y="68.6">F</tspan>
+		<tspan x="112" y="68.6">f</tspan>
+		<tspan x="86.7" y="60.6">G</tspan>
+		<tspan x="69.2" y="60.6">g</tspan>
+	</text>
 </svg>
