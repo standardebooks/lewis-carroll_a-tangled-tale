@@ -123,8 +123,9 @@ section > header [epub|type~="epigraph"]{
 /* End epigraphs in section headers */
 
 #chapter-10 > p:last-child{
-	text-align: center;
 	margin-top: 1em;
+	text-align: center;
+	text-indent: 0;
 }
 
 #appendix ol{
