@@ -174,17 +174,17 @@ section > header [epub|type~="epigraph"]{
 }
 
 @supports(display: flex){
-	#appendix-2-2-explanation{
+	#appendix-2-2 > div{
 		display: flex;
 		align-items: center;
 		flex-direction: row-reverse;
 	}
 
-	#appendix-2-2-explanation figure{
+	#appendix-2-2 > div figure{
 		flex-basis: 30%;
 	}
 
-	#appendix-2-2-explanation div{
+	#appendix-2-2 > div div{
 		flex-basis: 70%;
 		margin-right: 2em;
 	}
