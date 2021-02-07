@@ -11,5 +11,9 @@
 			<code>t-041</code>
 			<reason>Correct as Latin, not French.</reason>
 		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>Missing quote is in the previous list item.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
