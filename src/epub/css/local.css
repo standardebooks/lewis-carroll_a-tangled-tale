@@ -28,9 +28,9 @@ footer{
 }
 
 blockquote header{
-	text-align: center;
 	font-style: italic;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -68,9 +68,9 @@ p span.i1{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -156,13 +156,13 @@ section > header [epub|type~="epigraph"]{
 
 @supports(display: flex){
 	#illustration-2{
-		display: flex;
 		align-items: center;
+		display: flex;
 	}
 
 	#illustration-2 figcaption{
-		margin: 0 2em 0 0;
 		flex-basis: 40%;
+		margin: 0 2em 0 0;
 	}
 
 	#illustration-2 img{
@@ -176,8 +176,8 @@ section > header [epub|type~="epigraph"]{
 
 @supports(display: flex){
 	#appendix-2-2 > div{
-		display: flex;
 		align-items: center;
+		display: flex;
 		flex-direction: row-reverse;
 	}
 
@@ -196,8 +196,8 @@ section > header [epub|type~="epigraph"]{
 }
 
 #appendix-5 figure td{
-	width: 2em;
 	text-align: center;
+	width: 2em;
 }
 
 #appendix-7-1 ol{
