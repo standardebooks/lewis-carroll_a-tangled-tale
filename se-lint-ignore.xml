@@ -2,12 +2,6 @@
 <se-lint-ignore>
 	<file path="appendix.xhtml">
 		<ignore>
-			<code>t-036</code>
-			<reason>Single phrase, split across two equations.</reason>
-		</ignore>
-	</file>
-	<file path="appendix.xhtml">
-		<ignore>
 			<code>t-041</code>
 			<reason>Correct as Latin, not French.</reason>
 		</ignore>
