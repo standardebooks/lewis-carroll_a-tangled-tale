@@ -6,7 +6,7 @@
 			<reason>Correct as Latin, not French.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-019</code>
 			<reason>Missing quote is in the previous list item.</reason>
 		</ignore>
 	</file>
