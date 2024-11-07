@@ -146,7 +146,7 @@ section > header [epub|type~="epigraph"]{
 }
 
 #appendix .class-list ul ul{
-	margin-bottom: 0.5em;
+	margin-bottom: .5em;
 }
 
 #illustration-2 figcaption{
