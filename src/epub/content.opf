@@ -44,7 +44,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/29042</dc:source>
 		<dc:source>https://archive.org/details/tangledtale00carrrich</dc:source>
 		<meta property="se:production-notes">Appendix class lists should be in two columns, but styling that with CSS `columns` removes list numbering in WebKit (https://bugs.webkit.org/show_bug.cgi?id=23053).</meta>
-		<meta property="se:word-count">27205</meta>
+		<meta property="se:word-count">26922</meta>
 		<meta property="se:reading-ease.flesch">72.05</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Tangled_Tale</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/lewis-carroll_a-tangled-tale</meta>
