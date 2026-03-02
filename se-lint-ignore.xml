@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="appendix.xhtml">
-		<ignore>
-			<code>y-019</code>
+		<ignore code="y-019">
 			<reason>Missing quote is in the previous list item.</reason>
 		</ignore>
 	</file>
