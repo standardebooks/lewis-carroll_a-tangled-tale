@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="appendix.xhtml">
 		<ignore code="y-019">
+			<line>31</line>
 			<reason>Missing quote is in the previous list item.</reason>
 		</ignore>
 	</file>
