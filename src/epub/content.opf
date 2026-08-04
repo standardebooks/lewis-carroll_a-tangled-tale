@@ -37,7 +37,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85082131</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>Ten mathematical puzzles presented as comedic short stories.</dc:abstract>
+		<meta property="schema:abstract">Ten mathematical puzzles presented as comedic short stories.</meta>
 		<dc:description>
 			&lt;p&gt;In the late 19th century, &lt;a href="https://standardebooks.org/ebooks/lewis-carroll"&gt;Lewis Carroll&lt;/a&gt;—better known these days as the author of &lt;a href="https://standardebooks.org/ebooks/lewis-carroll/alices-adventures-in-wonderland/john-tenniel"&gt;&lt;i&gt;Alice’s Adventures in Wonderland&lt;/i&gt;&lt;/a&gt;—was also an established mathematician who had published many books and papers in the fields of algebra and logic. His mathematical interest extended to the setting of puzzles for popular consumption. The stories collected here cover varied subjects including the cataloguing of paintings, the number of times trains will pass each other on a circular track, the most efficient way to rent individual rooms on a square, and many more. They were published originally in &lt;i&gt;The Monthly Packet&lt;/i&gt; magazine and then collected with some additional commentary into a book originally published in 1885. Included along with the stories is a full appendix with Carroll’s answers, and his often acerbic commentary on the answers submitted to him at the time.&lt;/p&gt;
 		</dc:description>
