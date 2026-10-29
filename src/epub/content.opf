@@ -62,7 +62,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Johan Zoffany</dc:contributor>
 		<meta property="file-as" refines="#artist">Zoffany, Johan</meta>
-		<meta property="schema:alternateName" refines="#author">Johannes Josephus Zaufallij</meta>
+		<meta property="schema:alternateName" refines="#artist">Johannes Josephus Zaufallij</meta>
 		<link href="https://en.wikipedia.org/wiki/Johan_Zoffany" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/nr92043188.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -70,7 +70,7 @@
 		<meta property="file-as" refines="#transcriber-1">Curnow, Chris</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Carla Foust</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Fouse, Carla</meta>
+		<meta property="file-as" refines="#transcriber-2">Foust, Carla</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Lindy Walsh</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Walsh, Lindy</meta>
